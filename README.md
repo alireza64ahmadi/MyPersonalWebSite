@@ -1,3 +1,3 @@
 # MyPersonalWebSite
-### wuth mobile responsive 
-##yoi should try it 
+### with mobile responsive 
+###you should try it 
