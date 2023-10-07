@@ -402,3 +402,9 @@ nav .fas{
     margin-top: -40px;
     display: block;
 }
+#CwLogo{
+    width: 100px;
+    margin-right: 0;
+    position: absolute;
+    left: 18px;
+}
