@@ -31,8 +31,13 @@ nav {
 
  }
  .logo{
-    width: 114px;
+    width: 140px;
+    font-size: 30px;
 
+ }
+ .logo span {
+    color: #5900ff;
+    
  }
  nav ul li {
     display: inline-block;
@@ -51,7 +56,7 @@ nav {
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #5900ff;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -71,12 +76,17 @@ nav {
     margin-top: 20px;
 }
 .header-text h1 span{
-    color: #ff004f;
+    color: #5900ff;
 }
 /* .................about.................. */
 #about{
     padding: 80px 0;
     color: #ababab;
+}
+.about-col-1{
+    width: 100%;
+    height: 100%;
+
 }
 .row{
     display: flex;
@@ -114,7 +124,7 @@ nav {
     content: '';
     width: 0;
     height: 3px;
-    background: #ff004f;
+    background: #5900ff;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -175,7 +185,7 @@ nav {
 
 }
 .sevices-list div:hover{
-    background:#ff004f ;
+    background:#5900ff ;
     transform: translateY(-10px);
 }
 /* ---------------portfolio--------- */
@@ -202,7 +212,7 @@ nav {
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    background: linear-gradient(rgba(0,0,0,0.6),#5900ff);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -225,7 +235,7 @@ nav {
 }
 .layer a {
     margin-top: 20px;
-    color: #ff004f;
+    color: #5900ff;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -245,7 +255,7 @@ nav {
     display: block;
     margin: 50px auto ;
     width: fit-content;
-    border: 1px solid #ff004f;
+    border: 1px solid #5900ff;
     padding: 14px 50px;
     text-decoration: none;
     border-radius: 6px;
@@ -253,7 +263,7 @@ nav {
     transition: background 0.5s;
 }
 .btn:hover{
-    background-color: #ff004f;
+    background-color: #5900ff;
 }
 /* -----------contact------------ */
 .contact-left{
@@ -267,7 +277,7 @@ nav {
 
 }
 .contact-left p i{
-    color: #ff004f;
+    color: #5900ff;
     margin-right: 15px;
     font-size: 15px;
 }
@@ -284,12 +294,12 @@ nav {
     transition: transform 0.5s;
 }
 .social-icon a:hover{
-    color: #ff004f;
+    color: #5900ff;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #ff004f;
+    background: #5900ff;
 }
 .contact-right form{
     width: 100%;
@@ -321,7 +331,7 @@ form .btn2{
     margin-top: 20px;
 }
 .copyright i{
-    color: #ff004f;
+    color: #5900ff;
 }
 /* ============css for mobile============ */
 nav .fas{
@@ -341,7 +351,7 @@ nav .fas{
 
     }
     nav ul {
-        background: #ff004f;
+        background: #5900ff;
         position: fixed;
         top: 0;
         right: -200px;
