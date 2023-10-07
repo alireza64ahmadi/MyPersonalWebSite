@@ -396,6 +396,9 @@ nav .fas{
     .copyright{
         font-size: 14px;
     }
+    .logo{
+        visibility: hidden;
+    }
 }
 #msg{
     color: #61b752;
